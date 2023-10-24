@@ -1,0 +1,18 @@
+<div class="cake" routerLink="order/{{cake.id}}" >
+    <mat-card id="card" >
+     <mat-card-title id="title"> {{cake.name}}  </mat-card-title>
+        <img id="img" mat-card-image src="../../assets/images/{{cake.imageurl}}.jpg">
+            <mat-card-content>
+                <p >{{cake.description}}</p>
+                <p >{{cake.rating}} <img mat-card-image src="../../assets/images/star.png" width="15px" height="15px"></p>
+                <p >{{cake.price}} Rs</p>
+            </mat-card-content>
+    </mat-card>
+</div>
+
+
+
+   
+
+
+

@@ -1,0 +1,18 @@
+<div id="login-form">
+    
+    <mat-card>
+    <h1> Hi Admin</h1>
+    <h3 >Please Enter Your Security Code Below</h3>
+    <mat-form-field appearance="outline" id="field">
+        <mat-label>Enter Admin Code</mat-label>
+        <input matInput name="AdminCode" type="password"  [(ngModel)]="securityCode" placeholder="Enter AdminCode">
+        </mat-form-field>
+    <button mat-raised-button color="disabled" id="button" (click)="validateAdmin()">Submit</button>
+
+    <br>
+
+    <h3>If You are a User, <a routerLink="">click here to go to Home page</a></h3>
+    </mat-card>
+   
+</div>
+

@@ -1,0 +1,12 @@
+<mat-toolbar  id="header" >
+
+<h1 id="h1">BAKE MY CAKE</h1>
+
+<button mat-icon-button id="button" routerLink=""><mat-icon>home</mat-icon></button>
+
+    <button mat-raised-button color="disabled"  routerLink="login"  *ngIf="!authservice.isLoggedStatus" id="button2">login</button>
+    <button mat-raised-button color="disabled" routerLink="" *ngIf="authservice.isLoggedStatus" id="button3"  (click)="logoutFromAdminData()">logout</button>
+    
+  </mat-toolbar>
+
+   

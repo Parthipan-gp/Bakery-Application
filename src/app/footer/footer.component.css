@@ -1,0 +1,17 @@
+.img{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+   max-height: 10%;
+   height: 30px;
+   margin-left: 65em;
+   
+}
+
+.footer{
+    margin-top: 150em;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+}

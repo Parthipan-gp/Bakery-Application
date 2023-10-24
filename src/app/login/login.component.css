@@ -1,0 +1,30 @@
+h1{
+    padding-top: 30px;
+    padding-left: 250px;
+}
+
+h3{
+   
+    padding-left: 170px;
+}
+mat-card{
+    background-color: rgba(193, 117, 121, 0.466);
+    margin-left: 650px;
+    margin-top: 150px;
+    width: 600px;
+    height: 400px;
+}
+#field{
+  
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#button{
+    width: 100px;
+    margin-left: 250px;
+    background-color:rgba(193,117,121,255) ;
+}
+
+#login-form{
+    margin-bottom: -125em;
+}

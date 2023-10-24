@@ -1,0 +1,64 @@
+#form{
+    float: right;
+    padding-right: 15em;
+    height: 90%;
+}
+
+h1{
+    padding-top: 15px;
+    font-weight: 800;
+}
+
+h2{
+    padding-top: 20px;
+    padding-left: 35%;
+}
+
+p{
+    
+   font-size: large;
+   margin-top: 20px;
+    
+}
+mat-card{
+    background-color: rgba(193, 117, 121, 0.466);
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 110%;
+    width: 900px;
+}
+img{
+    padding-top: 50px;
+    width:700px;
+    height: 500px;
+    padding-left: 170px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+.form-main{
+    width:50%;
+    padding-top: 50px;
+   
+}
+mat-card-title{
+    padding-left: 15px;
+}
+
+#name,#phoneNumber,#citation{
+    padding-right: 35px;
+}
+
+#address{
+    width: 100%;
+}
+#button{
+    margin-left: 170px;
+    background-color:rgba(193,117,121,255)
+}
+#button2{
+    background-color:rgba(193,117,121,255) ;
+    margin-right: 20px;
+}
+#footer{
+    margin-bottom: -145em;
+}

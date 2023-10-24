@@ -1,0 +1,137 @@
+<div id="footer">
+<section>
+    <div id="form" >
+   
+        <h1> Please Enter Your Details</h1>
+            <form #orderForm="ngForm" >
+        
+            <mat-form-field appearance="outline"  class="form-main" id="name">
+                <input matInput placeholder="Name" name="customerName" required type="text" minlength="5"   #Name="ngModel" [(ngModel)]="user.customerName" pattern="^[a-zA-Z \-\']+" />
+                
+                    <mat-error *ngIf="Name.errors?.['required']">
+                         Name Cannot be Empty
+                    </mat-error>
+                    <mat-error *ngIf="Name.errors?.['minlength']">
+                        Name Minimum Length is{{Name.errors?.['minlength']?.requiredLength}}
+                    </mat-error>
+                    <mat-error *ngIf="Name.errors?.['pattern']">
+                        Name Cannot be A Number
+                    </mat-error>
+               
+        
+            </mat-form-field>
+            
+            <mat-form-field appearance="outline" class="form-main"  >
+                <input matInput placeholder="Email" name="customerEmail" required type="text"  #Email="ngModel" [(ngModel)]="user.customerEmail" pattern="^[a-zA-Z_.+-]+[a-zA-Z0-9_.+-]+@[a-zA-Z-]+\.[a-zA-Z-.]+$" />
+               
+                    <mat-error *ngIf="Email.errors?.['required']">
+                         Email cannot be empty or invalid format.
+                    </mat-error>
+                    <mat-error *ngIf="Email.errors?.['pattern']">
+                        Enter A valid Email ID
+                    </mat-error>
+                 
+        
+            </mat-form-field>
+            <br>
+            <mat-form-field appearance="outline" class="form-main" id="phoneNumber">
+                <input matInput placeholder="Phone Number" name="phoneNumber" type="text" required #Phone="ngModel" maxlength="10" [(ngModel)]="user.phoneNumber" pattern="^[789]\d{9,9}$" />
+              
+                    <mat-error *ngIf="Phone.errors?.['required']">
+                       Phone No.Cannot be Empty
+                    </mat-error>
+                    <mat-error *ngIf="Phone.errors?.['pattern']">
+                        Phone No should be of 10 dight number starting with 7, 8 or 9
+                    </mat-error>
+                    
+         
+            </mat-form-field>
+         
+    
+            <mat-form-field appearance="outline" class="form-main">
+                <input matInput [min]="minDate"  [matDatepicker]="picker" name="dateOfOrder" required #dateOfOrder="ngModel" [(ngModel)]="user.dateOfOrder">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                  <mat-datepicker #picker></mat-datepicker>
+       
+                      <mat-error *ngIf="dateOfOrder.errors?.['required']">
+                           Order Delivery date is required
+                      </mat-error>
+                 
+    
+                </mat-form-field>
+
+
+    
+            <br>
+            
+    
+            <mat-form-field appearance="outline" class="form-main" id="address" >
+                <input matInput placeholder="Address" name="address" type="text" required  #Address="ngModel" [(ngModel)]="user.address" pattern="^[#.0-9a-zA-Z\s,-]+$" />
+              
+                    <mat-error *ngIf="Address.errors?.['required']">
+                       Address.Cannot be Empty
+                    </mat-error>
+                    <mat-error *ngIf="Address.errors?.['pattern']">
+                        Address cannot conatin special characters
+                    </mat-error>
+
+            </mat-form-field>
+        
+            <br>
+    
+            <mat-form-field appearance="outline" class="form-main" id="citation" >
+              
+                <input matInput placeholder="Citation" name="citation" type="text" #Citation="ngModel" [(ngModel)]="user.citation"> 
+    
+              </mat-form-field>
+    
+    
+           
+    
+            <mat-form-field appearance="outline" class="form-main">
+                <input matInput placeholder="Quantity" name="quantity" type="text" required  #Quantity="ngModel" [(ngModel)]="user.quantity"  (input)="calcTotalAmount()" pattern="[1-9]{1,9}" />
+                <mat-error *ngIf="Quantity.errors?.['required']">
+                    Quantity Cannot be Empty
+                 </mat-error>
+                 <mat-error *ngIf="Quantity.errors?.['pattern']">
+                    Quantity Cannot be a negative number
+                 </mat-error>
+            </mat-form-field>
+            
+           <br>
+    
+     
+            <h2>Total Amount:{{user.totalPrice}}</h2>
+           
+        
+            <button id="button" mat-raised-button color="disabled"  [disabled]="!orderForm.valid" (click)="sendData()">Send Request</button>
+        </form>
+    
+    </div>
+    
+    
+</section>
+
+
+<section>
+    
+    <div>
+        <mat-card>
+            <img src=  "../../assets/images/{{cake.imageurl}}.jpg" >
+           <mat-card-title>{{cake.name}}</mat-card-title>
+           <mat-card-content>
+            <p>{{cake.description}}</p>
+            <p>{{cake.unit}}</p>
+            <mat-card-content class="raised">
+                <button id="button2" mat-raised-button color="disabled">{{cake.price}}Rs</button>
+            </mat-card-content>
+           <p>{{cake.od}}</p>
+       
+           </mat-card-content>
+        </mat-card>   
+    </div>
+    
+
+</section>
+</div>

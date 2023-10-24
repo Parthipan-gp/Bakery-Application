@@ -1,0 +1,205 @@
+{
+    "alldata":[
+        {
+            "id":"1",
+            "name":"Berries Summer Cupcakes",
+            "rating":"3",
+            "imageurl":"Berries Summer Cupcakes",
+            "description":" Delicious Berry cupcakes ",
+            "unit":"1piece",
+            "category":"cake",
+            "price":"50",
+            "od":"Calling all berry lovers!!! These Triple Berry Cupcakes are moist, fluffy, and bursting with fresh fruit in every bite These Mixed Berry Cupcakes are a great Summer recipe!"
+    
+        },
+        {
+            "id":"2",
+            "name":"Brownies Different Flavour",
+            "rating":"4",
+            "imageurl":"brownie",
+            "description":" Freshly baked Brownies ",
+            "unit":"1piece",
+            "category":"brownie",
+            "price":"100",
+            "od":"Brownies are chocolaty baked products made in square or rectangle shapes. They are commonly consumed around the world and are made with flour, fat (oil or butter), sugar, eggs and chocolate (molten or cocoa powder)."
+        },
+        {
+            "id":"3",
+            "name":"Butter Cookies",
+            "rating":"5",
+            "imageurl":"Butter-Cookies-1",
+            "description":"Yummy Butter Cookies",
+            "unit":"5 piece",
+            "category":"cookie",
+            "price":"100",
+            "od":"Butter cookies (or butter biscuits), known as Brysselkex, Sablés, and Danish biscuits, are unleavened cookies consisting of butter, flour, and sugar. They are often categorized as a “crisp cookie” due to their texture, caused in part because of the quantity of butter and sugar. It is generally necessary to chill the dough to enable proper manipulation and handling. Butter cookies at their most basic have no flavoring, but they are often flavored with vanilla, chocolate, and coconut, and/or topped with sugar crystals. "
+        },
+        {
+            "id":"4",
+            "name":"Cherry Jelly Cheesecake",
+            "rating":"3",
+            "imageurl":"Cherry Jelly Cheesecake",
+            "description":"Jelly Flavoured Cheesecake",
+            "unit":"1kg",
+            "category":"cake",
+            "price":"500",
+            "od":"Fresh Cherry Cheesecake Cups… When colours, textures and flavours come together to scream delicious, delicious, delicious! These are nobake, quick, from scratch and taste amazing. Everything comes together in perfect harmony, the flavours and textures really please the palette. a dessert consisting of a thick, creamy filling of cheese, eggs, and sugar over a thinner crust and topped with sweet or sometimes salty items"
+        },
+        {
+            "id":"5",
+            "name":"Chocolate Blueberries Cake",
+            "rating":"5",
+            "imageurl":"Chocolate Blueberries Cake",
+            "description":"Blueberry topped Chocolate cake",
+            "unit":"1kg",
+            "category":"cake",
+            "price":"10",
+            "od":"This Blueberry Chocolate Cake is a simple yet delicious dessert that will impress your guests and satisfy your sweet tooth. The fluffy and super moist chocolate cake is topped with a blueberry frosting and blueberry purée, creating a perfect combination of flavors."
+        },
+        {
+            "id":"6",
+            "name":"Chocolate Bonbons",
+            "rating":"4",
+            "imageurl":"Chocolate Bonbons",
+            "description":"Fresh Chocolate Bonbons",
+            "unit":"1kg",
+            "category":"cake",
+            "price":"300",
+            "od":"Too much filling in a bonbon cake. The top part is filled with delicious filling that spills over the bottom cake also covered in chocolate.You choose the type of chocolate from the top and bottom of the cake, the type of cake and your favorite filling.Layers of moist chocolate cake soaked in vanilla syrup, chocolate buttercream, and coated in a luscious layer of chocolate ganache."
+        },
+        {
+            "id":"7",
+            "name":"Chocolate Cookies",
+            "rating":"3",
+            "imageurl":"Chocolate Cookies",
+            "description":"Yummy Chocolate Cookies",
+            "unit":"10 pieces",
+            "category":"cookies",
+            "price":"250",
+            "od":"This chocolate chip cookie recipe is truly the best. Just take it from the 14,000 members of the Allrecipes community who have given it rave reviews! These chocolate chip cookies are beloved because they're soft, chewy, and absolutely irresistible. Our top-rated recipe for chocolate chip cookies will quickly become your go-to."
+        },
+        {
+            "id":"8",
+            "name":"Chocolate Cupcake",
+            "rating":"5",
+            "imageurl":"Chocolate Cupcake",
+            "description":"Delicious chocolate Cupcake",
+            "unit":"1 piece",
+            "category":"cake",
+            "price":"50",
+            "od":"Ultra-moist, tender and so rich, these Chocolate Cupcakes are the ultimate hit of chocolate! They stay moist for days, use simple ingredients and are topped with dreamy Chocolate Buttercream Frosting!Cupcakes are about having your own little cake that you do not have to share. These Chocolate Cupcakes are my favorite type of cupcake. The combination of a rich and moist chocolate butter cake topped with a rich and creamy chocolate butter frosting is irresistible. The frosting can be either piped into lovely swirls or, for the kids, all you need is a quick swipe of frosting with a liberal dusting of colored sprinkles."
+        },
+        {
+            "id":"9",
+            "name":"Chocolate Summer Berries",
+            "rating":"3.5",
+            "imageurl":"Chocolate Summer Berries",
+            "description":"Chocolate Cake topped with Berries",
+            "unit":"1kg",
+            "category":"cake",
+            "price":"500",
+            "od":"The sweet, fragrant, and tangy flavours found in fresh berries taste divine when paired with rich, creamy chocolate all year round. But there’s no better time to enjoy this heavenly combination than in summer — when raspberries, strawberries, blueberries, and cherries are in season in the UK. Chocolate and summer berries are a match made in heaven."
+        },
+        {
+            "id":"10",
+            "name":"Classic Cheesecake",
+            "rating":"4.5",
+            "imageurl":"Classic Cheesecake",
+            "description":"Cheesecake For Cheese Lovers",
+            "unit":"1kg",
+            "category":"cake",
+            "price":"9",
+            "od":"Our Classic Cheesecake has an uber creamy, dreamy texture thanks to a triple-threat dairy base comprised of heavy cream, sour cream, and cream cheese. The vanilla bean seed-speckled filling covers a crunchy, buttery crumb crust, and a final veil of sour cream gets baked into the top at the very end, creating a dramatic snow-white cap."
+        },
+        {
+            "id":"11",
+            "name":"Cookies Cream Cake",
+            "rating":"4.5",
+            "imageurl":"Cookies Cream Cake",
+            "description":"Cream Stuffed Cookies Cake",
+            "unit":"1kg",
+            "category":"cake",
+            "price":"450",
+            "od":"cookies and Cream Cake – Dark chocolate cake layers with cookies and cream filling, Oreo buttercream and chocolate drip.This chocolate cake is my go-to chocolate cake. I’m in love with it. I worked on it for years and it’s truly one of my favorite cakes of all time. If you haven’t made this cake before, you’ll notice the recipe calls for “dark” cocoa powder, which will make the cake nearly black and create a beautifully rich flavor."
+        },
+        {
+            "id":"12",
+            "name":"Easter Cupcakes",
+            "rating":"3",
+            "imageurl":"Easter Cupcakes",
+            "description":"Easter Themed Cupcakes",
+            "unit":"1 piece",
+            "category":"cake",
+            "price":"70",
+            "od":"These coconut chocolate Easter cupcakes feature the most moist and deeply chocolate cupcake ever, and a smooth tangy coconut cream cheese frosting. And like the fun of an Easter egg, you’ll find a surprise inside: a rich ganache filling that tastes like a chocolate truffle! Finish with a sprinkling of sweet coconut and candy-coated chocolate eggs."
+        },
+        {
+            "id":"13",
+            "name":"Fruit Cake",
+            "rating":"5",
+            "imageurl":"Fruit Cake",
+            "description":"Delicious Fruit Cake",
+            "unit":"1kg",
+            "category":"cake",
+            "price":"700",
+            "od":"Fresh Fruit cake is loaded with a lush assortment of seasonal fruits. There's nothing quite as lovely as a beautiful Fresh Fruit cake. The cake is in beautiful mix colors of fruits that will give serious delicious flavors and is so vibrant to look at, is a treat for the eyes. The cake is loaded with exotic and fresh fruits. So go and give yourself or your loved one's a gift of fresh fruit cake and make their celebration a memorable one"
+        },
+        {
+            "id":"14",
+            "name":"Isometric chocolate brownies",
+            "rating":"4.5",
+            "imageurl":"Isometric chocolate brownies",
+            "description":"Isometric Shaped Brownies",
+            "unit":"1 piece",
+            "category":"brownies",
+            "price":"150",
+            "od":"This brownie recipe makes rich, fudgy brownies that always turn out well. They're topped with homemade chocolate frosting to make the best brownies ever!.A variation made with brown sugar and vanilla rather than chocolate in the batter is called a blond brownie or blondie "
+        },
+        {
+            "id":"15",
+            "name":"Monster Theme Cake",
+            "rating":"3",
+            "imageurl":"Monster Theme Cake",
+            "description":"Monster Themed Cake",
+            "unit":"1kg",
+            "category":"cake",
+            "price":"550",
+            "od":"This Monster Cake is so good, it’s scary! This cute Halloween layer cake has a base covered in sprinkles, and a top layer decorated to look like a mini monster. Perfect for parties and spooky occasions! You can use whatever cookies and candies you have to customize the monster and really go wild."
+        },
+        {
+            "id":"16",
+            "name":"Muffin Devil Horns",
+            "rating":"5",
+            "imageurl":"Muffin Devil Horns",
+            "description":"Devil Horned shaped Muffins",
+            "unit":"1 piece",
+            "category":"cake",
+            "price":"50",
+            "od":"This Halloween cupcake decorating tutorial will show you how to make devil horns for your own devil cupcakes. It’s easy, fun and delicious!Chocolate cupcakes made with Betty Crocker™ Super Moist™ devil’s food cake mix, decorated with red frosting and coca candy horns and tails – the perfect devilish dessert for Halloween!"
+        },
+        {
+            "id":"17",
+            "name":"Muffin Ghost",
+            "rating":"4.5",
+            "imageurl":"Muffin Ghost",
+            "description":"Ghost cupcakes For Kids",
+            "unit":"1 piece",
+            "category":"cake",
+            "price":"50",
+            "od":"This ghost cake is actually made from a simple batch of cupcakes! Pull-apart cupcake cakes are perfect for parties, as guests can easily enjoy a cupcake without the mess of cutting into a regular cake.Nothing is as it seems on Halloween! This ghostly apparition appears to be a cake. In fact, it's a cleverly disguised arrangement of cupcakes.This heart shape cake has handcrafted fondant devil and woman on its top, along with edible glitter-coated devil's horns. It's the perfect cake to make your loved one's day even more special. "
+        },
+        {
+            "id":"18",
+            "name":"Pumpkin Spice Cupcakes",
+            "rating":"5",
+            "imageurl":"Pumpkin Spice Cupcakes",
+            "description":"Delicious Pumpkin Cupcakes",
+            "unit":"1 piece",
+            "category":"cake",
+            "price":"80",
+            "od":"These easy Pumpkin Spice Cupcakes have a light, fluffy texture and are loaded with pumpkin spice flavor. Top them with cream cheese frosting for the ultimate fall and Thanksgiving dessert.These moist pumpkin cupcakes are packed with delicious pumpkin flavor and your favorite fall spices."
+        }
+       
+        
+    ]
+}

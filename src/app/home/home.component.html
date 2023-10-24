@@ -1,0 +1,26 @@
+
+<body style="width: 100%;">
+    
+   
+
+  <div id=" filter">
+     <mat-button-toggle-group id="category" color="accent" name="favoriteColor"  [(ngModel)]="searchInput" style="height:40px;margin-left:60px; margin-top: 20px; ">
+      <mat-button-toggle value="cake"   (click)="onfilter()"    style="padding-bottom:15px; ;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color: rgba(193, 117, 121,255);color: white;">Cakes</mat-button-toggle>
+      <mat-button-toggle value="cookie" (click)="onfilter()"  style="padding-bottom:15px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color: rgba(193, 117, 121,255);color: white">Cookies</mat-button-toggle>
+      <mat-button-toggle value="brownie" (click)="onfilter()" style="padding-bottom:15px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color: rgba(193, 117, 121,255);color: white">Brownies</mat-button-toggle>
+      </mat-button-toggle-group>   
+      
+  </div>
+  
+<app-search (searchEvent)="searchCake($event)"></app-search> 
+<app-card  *ngFor="let cake of cake" [cake]="cake" ></app-card>
+
+
+</body> 
+
+
+
+
+
+
+
